@@ -10,7 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-class ScriptUtils {
+export class ScriptUtils {
 	static create(type, props) {
 		try {
 			const el = document.createElement(type)
