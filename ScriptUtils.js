@@ -20,7 +20,7 @@ window.SU = {
 			console.error('TmUtils - create | type: ' + type, e)
 			return document.createElement(type)
 		}
-	}
+	},
 	
 	insertCss(id, css) {
 		try {
