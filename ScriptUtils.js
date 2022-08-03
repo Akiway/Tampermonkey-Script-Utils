@@ -10,8 +10,8 @@
 // @grant        none
 // ==/UserScript==
 
-export class ScriptUtils {
-	static create(type, props) {
+class ScriptUtils {
+	create(type, props) {
 		try {
 			const el = document.createElement(type)
 			Object.assign(el, props)
@@ -22,7 +22,7 @@ export class ScriptUtils {
 		}
 	}
 	
-	static insertCss(id, css) {
+	insertCss(id, css) {
 		try {
 			const head = document.getElementsByTagName('head')[0]
 			const style = document.createElement('style')
@@ -35,3 +35,5 @@ export class ScriptUtils {
 		}
 	}
 }
+
+window.SU = new ScriptUtils()
