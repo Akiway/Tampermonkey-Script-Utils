@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         Script Utils
-// @namespace    http://tampermonkey.net/
-// @version      0.0.1
-// @description  Utils for tempermonkey
-// @author       Aurélien Klein
-// @match        http://*/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @copyright	 2022+
-// @grant        none
-// ==/UserScript==
-
 class ScriptUtils {
 	create(type, props) {
 		try {
